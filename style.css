@@ -8,6 +8,7 @@ Variables
 	--clr-primary: rgb(248, 104, 88);
 	--clr-btn-hover: rgb(245, 151, 140);
 	--clr-bg-banner: #FFFBF0;
+	--clr-bg-img: #F1F1F1;
 	--ff-primary: 'Poppins', sans-serif;
 	--ff-secondary: 'Luxurious Roman', cursive;
 	--spacing: 0.25rem;
@@ -57,4 +58,18 @@ header{
 ======================
 end of banner section
 ======================
+*/
+
+/*
+======================
+woman jacket section
+======================
+*/
+.product-img{
+  background: var(--clr-bg-img);
+}
+/*
+============================
+end of woman jacket section
+============================
 */
