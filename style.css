@@ -7,6 +7,7 @@ Variables
 	--clr-white: #fff;
 	--clr-primary: rgb(248, 104, 88);
 	--clr-btn-hover: rgb(245, 151, 140);
+	--clr-bg-banner: #FFFBF0;
 	--ff-primary: 'Poppins', sans-serif;
 	--ff-secondary: 'Luxurious Roman', cursive;
 	--spacing: 0.25rem;
@@ -35,5 +36,25 @@ h4 {
 /*
 ======================
 end of global classes
+======================
+*/
+
+/*
+=================
+banner section
+=================
+*/
+.section-banner{
+  min-height: calc(100vh - 59px);
+}
+header{
+  background: var(--clr-bg-banner);
+}
+.banner-heading h1{
+  font-size: 2.5rem;
+}
+/*
+======================
+end of banner section
 ======================
 */
