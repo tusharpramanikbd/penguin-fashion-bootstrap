@@ -1,0 +1,39 @@
+/*
+=============== 
+Variables
+===============
+*/
+:root {
+	--clr-white: #fff;
+	--clr-primary: rgb(248, 104, 88);
+	--clr-btn-hover: rgb(245, 151, 140);
+	--ff-primary: 'Poppins', sans-serif;
+	--ff-secondary: 'Luxurious Roman', cursive;
+	--spacing: 0.25rem;
+	--radius: 0.25rem;
+	--light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+	--dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  /* For testing purpose */
+	--border: 2px solid red;
+}
+
+/*
+=============== 
+global classes
+===============
+*/
+h1,
+h2,
+h3,
+h4 {
+	text-transform: capitalize;
+}
+.section-center{
+	margin: 0 auto;
+	max-width: 1170px;
+}
+/*
+======================
+end of global classes
+======================
+*/
