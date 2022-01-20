@@ -73,3 +73,27 @@ woman jacket section
 end of woman jacket section
 ============================
 */
+
+/*
+===============
+bottom section
+===============
+*/
+.bottom-img{
+	width: 25%;
+}
+@media screen and (min-width: 768px) {
+	.bottom-img{
+		width: 100%;
+	}
+}
+@media screen and (min-width: 992px) {
+  .bottom-img{
+		width: 75%;
+	}
+}
+/*
+======================
+end of bottom section
+======================
+*/
